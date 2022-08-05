@@ -5,7 +5,28 @@
 }
 
 .container {
-  width: 100vw;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  border: 1px solid red;
   height: 100vh;
-  border: 2px solid red;
+}
+
+.main {
+  border: 1px solid blue;
+
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.header {
+  border: 1px solid blue;
+}
+
+.main-content {
+  border: 2px solid greenyellow;
 }
