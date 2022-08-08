@@ -110,7 +110,7 @@
   gap: 1rem;
 }
 
-.main-sidebar {
+.news {
   border: 2px solid salmon;
   padding: 3rem 1.5rem;
 
@@ -119,23 +119,21 @@
   gap: 1rem;
 }
 
-.main-sidebar-top,
-.main-sidebar-bottom {
-  border: 2px solid crimson;
-
-  display: grid;
-  grid-template-rows: 1fr 10fr;
-  gap: 1rem;
-}
-
-#projects-heading,
-#announcements-heading,
-#trending-heading {
+.heading {
   border: 2px solid black;
 
   display: grid;
   justify-items: start;
   align-items: center;
+}
+
+.announce,
+.trending {
+  border: 2px solid crimson;
+
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  gap: 1rem;
 }
 
 .projects-container,
