@@ -5,28 +5,74 @@
 }
 
 .container {
-  border: 1px solid black;
+  border: 2px solid black;
 
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 
 .sidebar {
-  border: 1px solid red;
+  border: 2px solid red;
   height: 100vh;
 }
 
+.sidebar-content {
+  border: 2px solid rgb(132, 0, 255);
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 6fr 1fr 3fr 6fr;
+  min-width: 320px;
+}
+
+.branding {
+  border: 2px solid rgb(0, 255, 179);
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-items: center;
+  align-items: center;
+  min-height: 50px;
+}
+
+.navigation {
+  border: 2px solid rgb(234, 0, 255);
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.admin {
+  border: 2px solid rgb(21, 255, 0);
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  min-height: 150px;
+}
+
 .main {
-  border: 1px solid blue;
+  border: 2px solid blue;
 
   display: grid;
   grid-template-rows: 1fr 4fr;
 }
 
 .header {
-  border: 1px solid blue;
+  border: 2px solid blue;
 }
 
 .main-content {
   border: 2px solid greenyellow;
+}
+
+.spacer {
+  min-height: 50px;
 }
