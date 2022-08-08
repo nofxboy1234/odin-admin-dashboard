@@ -56,6 +56,9 @@
   justify-items: center;
   align-items: center;
   min-height: 150px;
+  /* grid-template-areas:
+    'privacy-logo privacy' 'support-logo support'
+    'settings-logo settings'; */
 }
 
 .main {
@@ -76,3 +79,35 @@
 .spacer {
   min-height: 50px;
 }
+
+/* #settings-logo {
+  grid-area: settings-logo;
+}
+
+#settings {
+  grid-area: settings;
+}
+
+#support-logo {
+  grid-area: support-logo;
+}
+
+#support {
+  grid-area: support;
+}
+
+#privacy-logo {
+  grid-area: privacy-logo;
+}
+
+#privacy {
+  grid-area: privacy;
+}
+
+.support {
+  grid-area: support;
+}
+
+.privacy {
+  grid-area: privacy;
+} */
