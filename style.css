@@ -67,7 +67,7 @@
   border: 2px solid blue;
 
   display: grid;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 150px 1fr;
 }
 
 .header {
@@ -137,11 +137,11 @@
 }
 
 .projects-container,
-.announcements-container {
+.announce-container {
   border: 2px solid blueviolet;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -149,6 +149,51 @@
   border: 2px solid deeppink;
   border-radius: 10px;
   min-height: 180px;
+  padding: 3rem 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 49fr;
+  grid-template-rows: 2fr 0.5fr 1fr;
+}
+
+.project-card > .accent {
+  background-color: #ff8800;
+
+  /* grid-row: 1 / 3; */
+}
+
+.card-info {
+  border: 2px solid lightseagreen;
+
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  gap: 0.5rem;
+}
+
+.card-info > .title {
+  font-weight: bold;
+}
+
+.card-icons {
+  border: 2px solid fuchsia;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: right;
+  align-items: center;
+  /* gap: 4rem; */
+}
+
+.card-icons > .icons {
+  border: 2px solid red;
+  /* padding: 0.5rem; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-icons > .icons > div {
+  padding: 1rem;
 }
 
 .spacer {
