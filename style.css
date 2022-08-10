@@ -184,15 +184,6 @@
   gap: 2rem;
 }
 
-.heading {
-  /* border: 2px solid black; */
-  /* background-color: rgb(211, 211, 211); */
-
-  /* display: grid;
-  justify-items: start;
-  align-items: center; */
-}
-
 .announce,
 .trending {
   background-color: rgb(235, 235, 235);
