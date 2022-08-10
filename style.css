@@ -144,10 +144,22 @@
 .announce,
 .trending {
   background-color: rgb(235, 235, 235);
+  /* padding: 1rem; */
 
   display: grid;
   grid-template-rows: 2fr 20fr;
   gap: 1rem;
+}
+
+.announce-section {
+  padding: 1rem;
+
+  display: grid;
+  grid-template-rows: 0.5fr 1.5fr;
+}
+
+.announce-section:not(.announce-section:last-child) {
+  border-bottom: 2px solid rgb(235, 235, 235);
 }
 
 .projects-container,
@@ -179,9 +191,9 @@
   border-radius: 10px;
   min-height: 180px;
   box-shadow: 5px 5px 5px rgb(212, 212, 212);
+  padding: 1rem;
 
-  /* display: grid;
-  grid-template-columns: 20px 1fr; */
+  display: grid;
 }
 
 .card-left {
@@ -234,10 +246,6 @@
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.card-icons > .icons > div {
-  /* padding: 1rem; */
 }
 
 .spacer {
