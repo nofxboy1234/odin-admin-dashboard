@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.outer-left {
+  background-color: rgb(232, 155, 255);
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.outer-right {
+  background-color: rgb(155, 227, 255);
+
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.main-content {
+  background-color: rgb(102, 255, 110);
+
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 6fr;
+}
+
+.top {
+  background-color: rgb(255, 248, 155);
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+  background-color: rgb(190, 155, 255);
+
+  grid-row-start: 2;
+  grid-row-end: 5;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}

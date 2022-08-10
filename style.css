@@ -7,6 +7,7 @@
 .container {
   /* border: 2px solid black; */
   background-color: black;
+  height: 100vh;
 
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -70,7 +71,7 @@
   /* height: 100vh; */
 
   display: grid;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 1fr 4fr;
 }
 
 .header {
@@ -153,12 +154,12 @@
 
 .main-content {
   /* border: 2px solid greenyellow; */
-  background-color: greenyellow;
+  background-color: rgb(235, 235, 235);
   /* height: 100vh; */
 
   display: grid;
   grid-template-columns: 2.5fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr, 8fr;
 }
 
 .projects {
@@ -187,9 +188,9 @@
   /* border: 2px solid black; */
   /* background-color: rgb(211, 211, 211); */
 
-  display: grid;
+  /* display: grid;
   justify-items: start;
-  align-items: center;
+  align-items: center; */
 }
 
 .announce,
