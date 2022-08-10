@@ -80,5 +80,5 @@ body {
   background-color: rgb(243, 255, 72);
 
   display: grid;
-  grid-template-rows: 1fr 3fr 2fr;
+  grid-template-rows: 1fr 3fr 2fr 5fr;
 }
