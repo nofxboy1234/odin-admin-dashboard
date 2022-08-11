@@ -102,6 +102,13 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.notifications {
+  background-color: rgb(255, 139, 72);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+
 .left-sidebar {
   background-color: rgb(243, 255, 72);
 
