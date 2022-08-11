@@ -122,3 +122,23 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
+
+.nav {
+  background-color: rgb(72, 243, 255);
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.settings {
+  background-color: rgb(255, 121, 154);
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.project {
+  border: 1px solid black;
+}
