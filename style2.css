@@ -115,3 +115,10 @@ body {
   display: grid;
   grid-template-rows: 1fr 3fr 2fr 5fr;
 }
+
+.logo {
+  background-color: rgb(121, 72, 255);
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
