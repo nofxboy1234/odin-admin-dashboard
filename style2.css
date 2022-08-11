@@ -95,6 +95,13 @@ body {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.buttons {
+  background-color: rgb(243, 255, 72);
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .left-sidebar {
   background-color: rgb(243, 255, 72);
 
