@@ -86,6 +86,7 @@ body {
 
 .user-icon-big {
   grid-row: 1 / span 2;
+  height: 123.7px;
 }
 
 .top-right {
