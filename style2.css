@@ -56,7 +56,7 @@ body {
   height: 100%;
 
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 0.7fr 4fr;
 }
 
 .outer-right {
@@ -69,12 +69,12 @@ body {
 .main-content {
   /* background-color: rgb(102, 255, 110); */
   background-color: var(--main-colour-desat);
-  padding: 1.5rem;
+  padding: 2.5rem;
 
   display: grid;
   grid-template-columns: 2.5fr 1fr;
   grid-template-rows: 1fr 6fr 1fr 6fr;
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 
 .shadow {
@@ -139,9 +139,20 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 12fr;
+  align-items: center;
+  justify-items: start;
+  gap: 1rem;
 }
 
-.search,
+.search-bar {
+  width: 600px;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--main-colour-desat);
+  padding: 1rem;
+}
+
 .buttons {
   justify-items: center;
   align-items: center;
@@ -196,12 +207,25 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.button {
+  background-color: var(--main-colour);
+  width: 120px;
+  height: 50px;
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  border-radius: 25px;
+}
+
 .notifications {
   /* background-color: rgb(255, 139, 72); */
   background-color: white;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 3fr;
+  gap: 2rem;
 }
 
 .user-icon-small-container {
@@ -226,7 +250,7 @@ body {
 }
 
 .user-info-top-right {
-  justify-self: center;
+  justify-self: left;
   align-self: center;
 }
 
