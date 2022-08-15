@@ -157,11 +157,6 @@ body {
   padding: 1rem;
 }
 
-.buttons {
-  justify-items: center;
-  align-items: center;
-}
-
 .user {
   /* background-color: rgb(72, 151, 255); */
   /* background-color: rgb(247, 247, 247); */
@@ -206,9 +201,16 @@ body {
 .buttons {
   /* background-color: rgb(243, 255, 72); */
   background-color: white;
+  /* padding: 0 1rem; */
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* gap: 1rem; */
+
+  justify-items: center;
+  align-items: center;
+
+  font-family: nunito-sans-bold;
 }
 
 .button {
@@ -221,6 +223,21 @@ body {
   justify-items: center;
 
   border-radius: 25px;
+}
+
+.button-left {
+  justify-self: end;
+}
+
+.button-right {
+  justify-self: start;
+}
+
+.bell-icon {
+  display: grid;
+
+  justify-items: end;
+  align-items: center;
 }
 
 .notifications {
@@ -253,7 +270,7 @@ body {
   left: -32px;
 }
 
-.user-info-top-right {
+.doll-top-right {
   justify-self: left;
   align-self: center;
 }
