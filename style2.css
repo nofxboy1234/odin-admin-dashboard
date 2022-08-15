@@ -73,7 +73,7 @@ body {
 
   display: grid;
   grid-template-columns: 2.5fr 1fr;
-  grid-template-rows: 1fr 6fr 1fr 6fr;
+  grid-template-rows: 0.5fr 6fr 0.5fr 6fr;
   gap: 1.3rem;
 }
 
@@ -109,6 +109,10 @@ body {
   background-color: white;
   box-shadow: 5px 5px 5px rgb(212, 212, 212);
 }
+
+/* .project {
+  max-height: 322px;
+} */
 
 .announcements-list {
   /* background-color: rgb(155, 255, 250); */
@@ -257,10 +261,14 @@ body {
 .left-sidebar {
   /* background-color: rgb(243, 255, 72); */
   background-color: var(--main-colour);
+  color: black;
+  font-size: 1.6rem;
+  font-family: nunito-sans-regular;
 
   display: grid;
-  /* grid-template-rows: 1fr 0.25fr 3fr 0.25fr 2fr 5fr; */
-  grid-template-rows: 0.5fr 0.25fr 2fr 0.5fr 1fr 5fr;
+  /* grid-template-rows: 0.5fr 0.25fr 2fr 0.5fr 1fr 5fr; */
+  grid-template-rows: 0.5fr 0.25fr 2fr 0.5fr 1fr 3fr;
+
   padding: 2rem;
 }
 
