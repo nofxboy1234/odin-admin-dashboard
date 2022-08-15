@@ -133,10 +133,18 @@ body {
 }
 
 .search {
-  background-color: rgb(72, 255, 170);
+  /* background-color: rgb(72, 255, 170); */
+  background-color: white;
+  padding: 1rem 5.5rem;
 
   display: grid;
   grid-template-columns: 1fr 12fr;
+}
+
+.search,
+.buttons {
+  justify-items: center;
+  align-items: center;
 }
 
 .user {
@@ -181,7 +189,8 @@ body {
 }
 
 .buttons {
-  background-color: rgb(243, 255, 72);
+  /* background-color: rgb(243, 255, 72); */
+  background-color: white;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -226,8 +235,16 @@ body {
   background-color: var(--main-colour);
 
   display: grid;
-  grid-template-rows: 1fr 0.25fr 3fr 0.25fr 2fr 5fr;
+  /* grid-template-rows: 1fr 0.25fr 3fr 0.25fr 2fr 5fr; */
+  grid-template-rows: 0.5fr 0.25fr 2fr 0.5fr 1fr 5fr;
   padding: 2rem;
+}
+
+.logo,
+.nav,
+.settings {
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo {
@@ -235,6 +252,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 3fr;
+  align-items: start;
 }
 
 .nav {
