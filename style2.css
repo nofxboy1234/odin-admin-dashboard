@@ -105,6 +105,10 @@ body {
   left: -46px;
 }
 
+.user-greeting {
+  align-self: center;
+}
+
 .top-right {
   background-color: rgb(255, 72, 157);
 
