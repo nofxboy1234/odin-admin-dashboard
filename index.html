@@ -13,33 +13,61 @@
       <div class="left-sidebar">
         <img
           class="dashboard-icon"
-          src="img/guidance_rune_icon.png"
-          alt="guidance rune icon"
+          src="icons/weather-night.svg"
+          alt="home icon"
         />
         <div>Dashboard</div>
 
         <div></div>
         <div></div>
 
-        <div>logo</div>
+        <img class="left-sidebar-icon" src="icons/home.svg" alt="home icon" />
         <div>Home</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/account-details.svg"
+          alt="home icon"
+        />
         <div>Profile</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/message-settings.svg"
+          alt="home icon"
+        />
         <div>Messages</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/history.svg"
+          alt="home icon"
+        />
         <div>History</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/note-multiple.svg"
+          alt="home icon"
+        />
         <div>Tasks</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/account-group.svg"
+          alt="home icon"
+        />
         <div>Communities</div>
         <div></div>
         <div></div>
-        <div>logo</div>
+        <img class="left-sidebar-icon" src="icons/cog.svg" alt="home icon" />
         <div>Settings</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/help-circle.svg"
+          alt="home icon"
+        />
         <div>Support</div>
-        <div>logo</div>
+        <img
+          class="left-sidebar-icon"
+          src="icons/shield-moon.svg"
+          alt="home icon"
+        />
         <div>Privacy</div>
         <div></div>
       </div>
@@ -48,15 +76,17 @@
         <div class="top">
           <div class="top-left">
             <div class="search">
-              <div>search icon</div>
-              <div>
-                <input
-                  class="search-bar"
-                  type="text"
-                  name="search-bar"
-                  id="search-bar"
-                />
-              </div>
+              <img
+                class="search-icon"
+                src="icons/magnify-expand.svg"
+                alt="search icon"
+              />
+              <input
+                class="search-bar"
+                type="text"
+                name="search-bar"
+                id="search-bar"
+              />
             </div>
             <div class="user">
               <div class="user-icon-big-container">
@@ -74,7 +104,11 @@
           <div class="top-right">
             <div class="notifications">
               <div></div>
-              <div class="bell-icon">bell icon</div>
+              <img
+                class="bell-icon"
+                src="icons/bell-ring.svg"
+                alt="home icon"
+              />
               <div class="user-icon-small-container">
                 <img
                   class="user-icon-small"
@@ -95,7 +129,25 @@
           <div class="content-heading">Your Projects</div>
           <div class="content-heading">Announcements</div>
           <div class="projects">
-            <div class="project">1</div>
+            <div class="project">
+              <div class="project-title">Super Cool Project</div>
+              <div class="project-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati nisi adipisci architecto cumque officia atque delectus
+                dicta ducimus nam hic voluptatum odio, quia amet ipsam eum,
+                voluptas enim id vitae.
+              </div>
+              <div></div>
+              <div class="project-icons">
+                <img class="project-icon" src="icons/star-plus.svg" alt="" />
+                <img class="project-icon" src="icons/eye-plus.svg" alt="" />
+                <img
+                  class="project-icon"
+                  src="icons/share-variant.svg"
+                  alt=""
+                />
+              </div>
+            </div>
             <div class="project">2</div>
             <div class="project">3</div>
             <div class="project">4</div>
@@ -103,16 +155,68 @@
             <div class="project">6</div>
           </div>
           <div class="announcements-list">
-            <div>announcement 1</div>
-            <div>announcement 2</div>
-            <div>announcement 3</div>
+            <div class="announcement">
+              <div class="announcement-heading">Rise of the Full Moon</div>
+              <div class="announcement-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                facilis officia voluptas vero, amet, aut consequatur rerum
+                repudiandae nulla ducimus mollitia soluta nisi ad quia officiis
+                molestiae, a facere sunt.
+              </div>
+            </div>
+            <div class="announcement">
+              <div class="announcement-heading">Orphan of Kos Chaos</div>
+              <div class="announcement-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                facilis officia voluptas vero, amet, aut consequatur rerum
+                repudiandae nulla ducimus mollitia soluta nisi ad quia officiis
+                molestiae, a facere sunt.
+              </div>
+            </div>
+            <div class="announcement">
+              <div class="announcement-heading">
+                Cleric Beast Screaming Again
+              </div>
+              <div class="announcement-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                facilis officia voluptas vero, amet, aut consequatur rerum
+                repudiandae nulla ducimus mollitia soluta nisi ad quia officiis
+                molestiae, a facere sunt.
+              </div>
+            </div>
           </div>
           <div class="content-heading">Trending</div>
           <div class="trending-list">
-            <div>trend 1</div>
-            <div>trend 2</div>
-            <div>trend 3</div>
-            <div>trend 4</div>
+            <div class="trend">
+              <img
+                class="trend-icon"
+                src="icons/horse-variant-fast.svg"
+                alt="horse icon"
+              />
+              <div class="trend-handle">@ludwig</div>
+              <div class="trend-title">Horse Feeder</div>
+            </div>
+            <div class="trend">
+              <div class="trend-icon">
+                <img src="icons/jellyfish-outline.svg" alt="horse icon" />
+              </div>
+              <div class="trend-handle">@ebrietas</div>
+              <div class="trend-title">Noodle Recipe Maker</div>
+            </div>
+            <div class="trend">
+              <div class="trend-icon">
+                <img src="icons/cat.svg" alt="horse icon" />
+              </div>
+              <div class="trend-handle">@paarl</div>
+              <div class="trend-title">Electric Claws Sharpener</div>
+            </div>
+            <div class="trend">
+              <div class="trend-icon">
+                <img src="icons/spider-thread.svg" alt="horse icon" />
+              </div>
+              <div class="trend-handle">@rom</div>
+              <div class="trend-title">Eyeball Cleaner</div>
+            </div>
           </div>
         </div>
       </div>
