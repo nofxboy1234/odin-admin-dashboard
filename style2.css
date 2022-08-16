@@ -7,7 +7,8 @@
 :root {
   --main-colour: #fec7c4;
   --main-colour-desat: #faeaea;
-  /* --main-colour: red; */
+  --secondary-colour: #007380;
+  --secondary-colour-desat: #8fd8e0;
 }
 
 @font-face {
@@ -21,7 +22,7 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   font-family: nunito-sans-regular;
 }
 
@@ -75,6 +76,7 @@ body {
   grid-template-columns: 2.5fr 1fr;
   grid-template-rows: 0.5fr 6fr 0.5fr 6fr;
   gap: 1.3rem;
+  /* height: 100vh; */
 }
 
 .shadow {
@@ -112,8 +114,12 @@ body {
   gap: 1rem;
 }
 
+.trending-list {
+  height: 400px;
+}
+
 .project {
-  border-left: 10px solid var(--main-colour);
+  border-left: 10px solid var(--secondary-colour-desat);
 
   display: grid;
   gap: 0.5rem;
